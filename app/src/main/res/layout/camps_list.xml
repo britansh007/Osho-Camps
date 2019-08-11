@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:orientation="vertical" android:layout_width="match_parent"
-    android:layout_height="match_parent">
+    android:layout_height="match_parent"
+    android:background="@drawable/bg">
 
     <TextView
         android:id="@+id/campView"
@@ -11,8 +12,6 @@
         android:layout_marginBottom="4dp"
         android:layout_marginLeft="8dp"
         android:gravity="center"
-        android:clickable="true"
-        android:onClick="perform_action"
         android:text=""
         android:textSize="30sp" />
 

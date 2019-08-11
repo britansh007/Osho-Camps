@@ -33,7 +33,7 @@
                 app:layout_constraintRight_toRightOf="parent"
                 app:layout_constraintTop_toTopOf="@id/imageView1"
                 app:layout_constraintVertical_bias="0.447"
-                app:srcCompat="@drawable/shoonya" />
+                app:srcCompat="@drawable/ranchi" />
 
             <ImageView
                 android:id="@+id/imageView1"
@@ -63,7 +63,7 @@
                 app:layout_constraintRight_toRightOf="parent"
                 app:layout_constraintTop_toTopOf="@id/imageView3"
                 app:layout_constraintVertical_bias="0.447"
-                app:srcCompat="@drawable/krishna" />
+                app:srcCompat="@drawable/agra" />
 
             <ImageView
                 android:id="@+id/imageView3"
@@ -78,7 +78,8 @@
                 app:layout_constraintRight_toRightOf="parent"
                 app:layout_constraintTop_toTopOf="@id/imageView4"
                 app:layout_constraintVertical_bias="0.447"
-                app:srcCompat="@drawable/mohini" />
+                app:srcCompat="@drawable/vridavan" />
+
 
             <ImageView
                 android:id="@+id/imageView4"
@@ -91,9 +92,74 @@
                 app:layout_constraintBottom_toBottomOf="@id/imageView3"
                 app:layout_constraintLeft_toLeftOf="parent"
                 app:layout_constraintRight_toRightOf="parent"
-                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintTop_toTopOf="@id/imageView5"
                 app:layout_constraintVertical_bias="0.447"
                 app:srcCompat="@drawable/anand" />
+
+            <ImageView
+                android:id="@+id/imageView5"
+                android:adjustViewBounds="true"
+                android:scaleType="fitCenter"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:visibility="visible"
+                android:layout_margin="15dp"
+                app:layout_constraintBottom_toBottomOf="@id/imageView4"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintRight_toRightOf="parent"
+                app:layout_constraintTop_toTopOf="@id/imageView6"
+                app:layout_constraintVertical_bias="0.447"
+                app:srcCompat="@drawable/champa" />
+
+            <ImageView
+                android:id="@+id/imageView6"
+                android:adjustViewBounds="true"
+                android:scaleType="fitCenter"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:visibility="visible"
+                android:layout_margin="15dp"
+                app:layout_constraintBottom_toBottomOf="@id/imageView5"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintRight_toRightOf="parent"
+                app:layout_constraintTop_toTopOf="@id/imageView7"
+                app:layout_constraintVertical_bias="0.447"
+                app:srcCompat="@drawable/bhilai" />
+
+
+
+            <ImageView
+                android:id="@+id/imageView7"
+                android:adjustViewBounds="true"
+                android:scaleType="fitCenter"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:visibility="visible"
+                android:layout_margin="15dp"
+                app:layout_constraintBottom_toBottomOf="@id/imageView6"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintRight_toRightOf="parent"
+                app:layout_constraintTop_toTopOf="@id/imageView8"
+                app:layout_constraintVertical_bias="0.447"
+                app:srcCompat="@drawable/calendar" />
+
+
+            <ImageView
+                android:id="@+id/imageView8"
+                android:adjustViewBounds="true"
+                android:scaleType="fitCenter"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:visibility="visible"
+                android:layout_margin="15dp"
+                app:layout_constraintBottom_toBottomOf="@id/imageView7"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintRight_toRightOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.447"
+                app:srcCompat="@drawable/calendar1" />
+
+
         </LinearLayout>
     </ScrollView>
 

@@ -1,11 +1,13 @@
 <resources>
     <string name="app_name">Osho Camps</string>
     <string name="international"><![CDATA[
-    <b>Osho Mystic Rose </b> <br />
-     Sept 11 - Oct 1 <br />
+    <font color=\'red\'> <b>Osho Mystic Rose </b> </font><br />
+     Sept 11 - Oct 1
      <br /> <br />
-     <b> Osho Mystic Rose </b> <br />
-     Oct 11 - Oct 31 <br />
+     <font color=\'red\'> <b> Osho Mystic Rose </b> </font> <br />
+     Oct 11 - Oct 31 <br /><br />
+      <font color=\'red\'><b> Osho Mystic Rose </b> </font> <br />
+     Nov 11 - Dec 1 <br />
 ]]></string>
     <string name="madhuban"><![CDATA[
     <b>Osho Bhakti Sadhana and Krishna Janmashtmi Mahotsava</b> <br />
@@ -13,7 +15,7 @@
      <font color=\'red\'><i>Sw Ramvilas Bharti <br /> Sw Anand Manasvi </i> </font><br /> <br />
      <b> Osho Mystic Rose </b> <br />
      Sept 1 - Sept 21 <br />
-     <font color=\'red\'><i> Sw Anand Ekant <br /> Sw Sudhakar Bharti <br /> Sw Atmo Kranti</i><font color=\'red\'>
+     <font color=\'red\'><i> Sw Anand Ekant <br /> Sw Sudhakar Bharti <br /> Sw Atmo Kranti</i></font>
 ]]></string>
     <string name="nisarga"><![CDATA[
     <b>No Mind: Osho Meditative Therapy</b> <br />
@@ -21,7 +23,7 @@
      <font color=\'red\'><i>Sw Satyam Shivam </i> </font><br /> <br />
      <b> Chakra Awareness: Healing and Balancing </b> <br />
      Sept 25 - Sept 29 <br />
-     <font color=\'red\'><i> Ma Prem Nidhi <br /> </i><font color=\'red\'>
+     <font color=\'red\'><i> Ma Prem Nidhi <br /> </i></font>
 ]]></string>
     <string name="gangadham"><![CDATA[
     <b>Osho No Mind</b> <br />
@@ -29,7 +31,7 @@
      <font color=\'red\'><i>Ma Prem Sindhu </i> </font><br /> <br />
      <b> Rangrez </b> <br />
      Oct 2 - Oct 6<br />
-     <font color=\'red\'><i> Dr Madhavi Panchal <br /> </i><font color=\'red\'>
+     <font color=\'red\'><i> Dr Madhavi Panchal <br /> </i></font>
 ]]></string>
     <string name="oshodham"><![CDATA[
     <b>Maha Pari Nirvana Day</b> <br />
@@ -37,10 +39,11 @@
      <font color=\'red\'><i>Ma Dharma Jyoti <br /> Sw Gyan Sahil</i> </font><br /> <br />
      <b> Osho Neo Sannyas </b> <br />
      Sept 25 - Sept 28<br />
-     <font color=\'red\'><i> Sw Ravindra Bharti <br /> </i><font color=\'red\'>
+     <font color=\'red\'><i> Sw Ravindra Bharti  </i></font>
+     <br /> <br />
      <b> Osho No Mind Group </b> <br />
      Sept 29 - Oct 5<br />
-     <font color=\'red\'><i> Sw Ravindra Bharti <br /> </i><font color=\'red\'>
+     <font color=\'red\'><i> Sw Ravindra Bharti <br /> </i></font>
 ]]></string>
     <string name="sanzen"><![CDATA[
     <b>Osho Silence Retreat</b> <br />
@@ -48,13 +51,13 @@
      <font color=\'red\'><i>Ma Dhyan Abha </i> </font><br /> <br />
      <b> Gurdjieff Scared Dances </b> <br />
      Oct 31 - Nov 3<br />
-     <font color=\'red\'><i> Sw Gyan Nirupam <br /> </i><font color=\'red\'>
+     <font color=\'red\'><i> Sw Gyan Nirupam <br /> </i></font>
 ]]></string>
     <string name="amritdham"><![CDATA[
-    <b>Maun Dhyan Shiwir</b> <br />
+    <b>Maun Dhyan Shivir</b> <br />
      Aug 5 - Aug 25 <br />
      <font color=\'red\'><i>Sw Anand Vijay <br /> Amritdham Parivar </i> </font><br /> <br />
-     <b> Maa Prem Samadhi Shiwir </b> <br />
+     <b> Maa Prem Samadhi Shivir </b> <br />
      Sept 1 - Sept 3<br />
      <font color=\'red\'><i>Sw Anand Vijay <br /> Amritdham Parivar </i> </font>
 ]]></string>

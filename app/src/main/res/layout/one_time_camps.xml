@@ -1,17 +1,19 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
-    xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent">
-
 
 
     <ScrollView
         android:id="@+id/scrollView"
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"
-        android:layout_marginTop="30dp">
+        android:layout_marginTop="20dp"
+        android:fadeScrollbars="false"
+        android:scrollbarStyle="insideInset"
+        android:scrollbarThumbVertical="@android:color/holo_blue_dark"
+        android:scrollbarTrackVertical="@color/customisedGrey">
 
 
         <LinearLayout
@@ -22,12 +24,12 @@
 
             <ImageView
                 android:id="@+id/imageView0"
-                android:adjustViewBounds="true"
-                android:scaleType="fitCenter"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:visibility="visible"
                 android:layout_margin="15dp"
+                android:adjustViewBounds="true"
+                android:scaleType="fitCenter"
+                android:visibility="visible"
                 app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintLeft_toLeftOf="parent"
                 app:layout_constraintRight_toRightOf="parent"
@@ -37,12 +39,12 @@
 
             <ImageView
                 android:id="@+id/imageView1"
-                android:adjustViewBounds="true"
-                android:scaleType="fitCenter"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:visibility="visible"
                 android:layout_margin="15dp"
+                android:adjustViewBounds="true"
+                android:scaleType="fitCenter"
+                android:visibility="visible"
                 app:layout_constraintBottom_toBottomOf="@id/imageView0"
                 app:layout_constraintLeft_toLeftOf="parent"
                 app:layout_constraintRight_toRightOf="parent"
@@ -52,12 +54,12 @@
 
             <ImageView
                 android:id="@+id/imageView2"
-                android:adjustViewBounds="true"
-                android:scaleType="fitCenter"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:visibility="visible"
                 android:layout_margin="15dp"
+                android:adjustViewBounds="true"
+                android:scaleType="fitCenter"
+                android:visibility="visible"
                 app:layout_constraintBottom_toBottomOf="@id/imageView1"
                 app:layout_constraintLeft_toLeftOf="parent"
                 app:layout_constraintRight_toRightOf="parent"
@@ -67,12 +69,12 @@
 
             <ImageView
                 android:id="@+id/imageView3"
-                android:adjustViewBounds="true"
-                android:scaleType="fitCenter"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:visibility="visible"
                 android:layout_margin="15dp"
+                android:adjustViewBounds="true"
+                android:scaleType="fitCenter"
+                android:visibility="visible"
                 app:layout_constraintBottom_toBottomOf="@id/imageView2"
                 app:layout_constraintLeft_toLeftOf="parent"
                 app:layout_constraintRight_toRightOf="parent"
@@ -83,12 +85,12 @@
 
             <ImageView
                 android:id="@+id/imageView4"
-                android:adjustViewBounds="true"
-                android:scaleType="fitCenter"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:visibility="visible"
                 android:layout_margin="15dp"
+                android:adjustViewBounds="true"
+                android:scaleType="fitCenter"
+                android:visibility="visible"
                 app:layout_constraintBottom_toBottomOf="@id/imageView3"
                 app:layout_constraintLeft_toLeftOf="parent"
                 app:layout_constraintRight_toRightOf="parent"
@@ -98,12 +100,12 @@
 
             <ImageView
                 android:id="@+id/imageView5"
-                android:adjustViewBounds="true"
-                android:scaleType="fitCenter"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:visibility="visible"
                 android:layout_margin="15dp"
+                android:adjustViewBounds="true"
+                android:scaleType="fitCenter"
+                android:visibility="visible"
                 app:layout_constraintBottom_toBottomOf="@id/imageView4"
                 app:layout_constraintLeft_toLeftOf="parent"
                 app:layout_constraintRight_toRightOf="parent"
@@ -113,12 +115,12 @@
 
             <ImageView
                 android:id="@+id/imageView6"
-                android:adjustViewBounds="true"
-                android:scaleType="fitCenter"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:visibility="visible"
                 android:layout_margin="15dp"
+                android:adjustViewBounds="true"
+                android:scaleType="fitCenter"
+                android:visibility="visible"
                 app:layout_constraintBottom_toBottomOf="@id/imageView5"
                 app:layout_constraintLeft_toLeftOf="parent"
                 app:layout_constraintRight_toRightOf="parent"
@@ -127,15 +129,14 @@
                 app:srcCompat="@drawable/bhilai" />
 
 
-
             <ImageView
                 android:id="@+id/imageView7"
-                android:adjustViewBounds="true"
-                android:scaleType="fitCenter"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:visibility="visible"
                 android:layout_margin="15dp"
+                android:adjustViewBounds="true"
+                android:scaleType="fitCenter"
+                android:visibility="visible"
                 app:layout_constraintBottom_toBottomOf="@id/imageView6"
                 app:layout_constraintLeft_toLeftOf="parent"
                 app:layout_constraintRight_toRightOf="parent"
@@ -146,12 +147,12 @@
 
             <ImageView
                 android:id="@+id/imageView8"
-                android:adjustViewBounds="true"
-                android:scaleType="fitCenter"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:visibility="visible"
                 android:layout_margin="15dp"
+                android:adjustViewBounds="true"
+                android:scaleType="fitCenter"
+                android:visibility="visible"
                 app:layout_constraintBottom_toBottomOf="@id/imageView7"
                 app:layout_constraintLeft_toLeftOf="parent"
                 app:layout_constraintRight_toRightOf="parent"

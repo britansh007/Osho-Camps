@@ -1,4 +1,4 @@
-package com.example.oshocamps;
+package com.campedia.oshocamps;
 
 import android.content.Intent;
 import android.os.Bundle;

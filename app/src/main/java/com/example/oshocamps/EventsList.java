@@ -16,6 +16,7 @@ public class EventsList extends AppCompatActivity {
 
     }
 
+
     public void perform_action(View view) {
 
         int id = view.getId();
@@ -31,6 +32,7 @@ public class EventsList extends AppCompatActivity {
         Intent intent = new Intent(EventsList.this, OneTimeCamps.class);
         startActivity(intent);
 
-
     }
+
+
 }
